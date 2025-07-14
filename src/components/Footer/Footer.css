@@ -1,0 +1,43 @@
+.footer{
+    margin: 50px 180px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer hr {
+    background-color: #26caff;
+    height: 2px;
+    border: none;
+    border-radius: 50px;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-bottom p {
+    color: #A0A0A0;
+}
+
+@media(max-width:1150px){
+
+    .footer{
+        margin: 20px 20px;
+        margin-top: -90px;
+    }
+
+    .footer hr {
+        margin: 0 20px;
+    }
+
+    .footer-bottom{
+        font-size: 10px;
+    }
+
+}
