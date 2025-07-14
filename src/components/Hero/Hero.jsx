@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="hero-right-mob"><img src={profile_img} alt="" /></div> 
         
        <div className="hero-left"> 
-        <h1><span>Saikat Biswas,</span></h1>
+        <h1><span>Saikati Biswas,</span></h1>
         <p>I'm Frontend Developer based in Kolkata, <br /> focused on creating clean, responsive websites. </p>
 
         <div className="hero-action">
